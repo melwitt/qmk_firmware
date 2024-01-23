@@ -93,7 +93,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DEBUG_BOOT_TRACING_PIN      23
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 5
+
+// added by melwitt
+// default DEBOUNCE is 5
+#define DEBOUNCE 30
 
 // Required BOOT key hold time (in ms) for restarting to bootloader -PS081419
 #define BOOTKEY_HOLD_MS		2000
