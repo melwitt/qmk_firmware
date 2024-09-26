@@ -21,3 +21,7 @@
 #ifdef RGB_MATRIX_ENABLE
 #    define USB_SUSPEND_WAKEUP_DELAY 5000
 #endif
+
+// added by melwitt
+// default DEBOUNCE is 5
+#define DEBOUNCE 30
