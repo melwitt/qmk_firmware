@@ -76,4 +76,4 @@ fi
 	-e SKIP_VERSION="$SKIP_VERSION" \
 	-e MAKEFLAGS="$MAKEFLAGS" \
 	ghcr.io/qmk/qmk_cli \
-	"$@"
+	bash -c "/usr/bin/python3 -m pip install -r /qmk_firmware/requirements.txt; $*"
