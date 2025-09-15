@@ -20,3 +20,7 @@
 
 #define RGB_MATRIX_CYCLE_ZONES_ENABLE
 #define RGB_MATRIX_CAPS_LOCK_INDEX 30
+
+// added by melwitt
+// default DEBOUNCE is 5
+#define DEBOUNCE 30
